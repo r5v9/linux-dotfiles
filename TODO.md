@@ -12,6 +12,8 @@
 - fonts
 - themes
 - keyboard
+- password manager
+- dropbox
 
 monitoring
 htop
