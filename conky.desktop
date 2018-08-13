@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=conky
+GenericName=conky
+Comment=conky
+Icon=conky
+Type=Application
+Exec=/home/user/projects/linux-dotfiles/start-conky.sh
+X-GNOME-Autostart-enabled=true
+X-MATE-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+X-GNOME-Autostart-Delay=0
+StartupNotify=true

@@ -12,3 +12,7 @@
 - fonts
 - themes
 - keyboard
+
+monitoring
+htop
+glances

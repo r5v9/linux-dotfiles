@@ -37,9 +37,9 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='vim'
-  alias vim="vim"
-  alias vi="vim"
+  export EDITOR='nvim'
+  alias vim="nvim"
+  alias vi="nvim"
 fi
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[030]%}"
