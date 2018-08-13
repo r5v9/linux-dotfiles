@@ -3,6 +3,6 @@
 set -eux
 
 sudo apt install -y conky-all
-cp conkyrc ~/.conkyrc
+ln -s $(pwd)/conkyrc ~/.conkyrc
 mkdir -p ~/.config/autostart/
-cp start-conky.desktop ~/.config/autostart/
+ln -s $(pwd)/conky.desktop ~/.config/autostart/conky.desktop

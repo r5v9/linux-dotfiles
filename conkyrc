@@ -20,9 +20,9 @@ conky.config = {
     override_utf8_locale = true,
  
     -- placement
-    alignment = 'top_middle',
-    gap_x = 0,
-    gap_y = 50,
+    alignment = 'top_right',
+    gap_x = 20,
+    gap_y = 20,
  
     -- default drawing
     draw_shades = false,
