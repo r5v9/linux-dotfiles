@@ -46,12 +46,12 @@ conky.config = {
     template2 = [[${goto 100}${color}]],
     template3 = [[${goto 180}${color}${alignr}]],
     template4 = [[${font Liberation Mono:normal:size=8}]],
+    -- ${alignc}${font Liberation Sans:normal:size=10}${texeci 1800 curl -s 'wttr.in?0QTm' | head -n 2 | colrm 1 15 | awk '{$1=$1};1' | sed -z 's/\n/ /g' | awk '{$1=$1};1'}${font}
 };
  
 conky.text = [[
 ${voffset -1}${font Liberation Sans:normal:size=16}${alignc}${time %H:%M}${font}
 ${voffset 4}${alignc}${font Liberation Sans:normal:size=10}${time %A %B %d, %Y}${font}
-${alignc}${font Liberation Sans:normal:size=10}${texeci 1800 curl -s 'wttr.in?0QTm' | head -n 2 | colrm 1 15 | awk '{$1=$1};1' | sed -z 's/\n/ /g' | awk '{$1=$1};1'}${font}
 
 ${template0 System}
 ${template1 Uptime}                                                         ${template3}${uptime_short}
