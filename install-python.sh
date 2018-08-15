@@ -24,8 +24,10 @@ mkdir -p ~/tmp
 )
 
 mkdir -p $HOME/.virtualenvs
-rm -f $HOME/.virtualenvs/python3bin/pip3 install virtualenv
+rm -f $HOME/.virtualenvs/python3
+
 sudo /usr/local/python/${VERSION}/bin/pip3 install virtualenv
 /usr/local/python/${VERSION}/bin/virtualenv --python=/usr/local/python/${VERSION}/bin/python3 $HOME/.virtualenvs/python3
 
-pip install jupyter jupyterlab pandas numpy scipy scikit-learn matplotlib seaborn bpython
+ $HOME/.virtualenvs/python3/bin/pip install jupyter jupyterlab pandas numpy \
+    scipy scikit-learn matplotlib seaborn bpython opencv-python

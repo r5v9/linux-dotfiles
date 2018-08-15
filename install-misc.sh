@@ -4,3 +4,4 @@ set -eux
 
 sudo apt install -y apcalc
 sudo apt install -y silversearcher-ag
+sudo apt install simplescreenrecorder
