@@ -124,6 +124,8 @@ set viminfo='100,\"1000,:100,n~/.nvim/tmp/viminfo
 " disable auto comments
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
+" configure status line
+hi StatusLine ctermbg=white ctermfg=black
 
 " }}}
 " file types ------------------------------------------------------------------- {{{

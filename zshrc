@@ -90,3 +90,8 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH="$HOME/google-cloud-sdk/bin:$PATH"
 
 [ -s "/home/user/.scm_breeze/scm_breeze.sh" ] && source "/home/user/.scm_breeze/scm_breeze.sh"
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
+export PATH="/usr/local/julia/bin:$PATH"
